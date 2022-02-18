@@ -1,97 +1,96 @@
-import AUTOMATION from "./Assets/Projects/3automation.jpg";
-import COAST from "./Assets/Projects/coast.jpg";
-import DROPSHIP from "./Assets/Projects/dropship.jpg";
-import GOOD_FOOD_DISCOUNTS from "./Assets/Projects/goodFoodDiscounts.png";
-import GUAMEDIA from "./Assets/Projects/guamedia.jpg";
-import HSP from "./Assets/Projects/hsp.png";
-import COSMOS from "./Assets/Projects/cosmos.jpg";
-import TECHSPEC from "./Assets/Projects/techspec.png";
-import TRAVELWELL from "./Assets/Projects/travelwell.png";
+import ANGULAR_LISTING from './Assets/Projects/angular-listing.jpeg';
+import TRENDING_MOVIES from './Assets/Projects/react-movies.jpg';
+import LOAN_CALC from './Assets/Projects/loan-calculator.jpg';
+import DEEP_REINFORCEMENT from './Assets/Projects/deep-reinforcement-learning.jpeg';
+import NEARBY from './Assets/Projects/nearby.jpg';
+import IRIS_FLOWER from './Assets/Projects/iris-flower.webp';
+import VEG_FRUIT from './Assets/Projects/vag-fruits.jpeg';
+import MAZE_SOLVER from './Assets/Projects/maze-solver.jpeg'
 
 
 export const PROJECTS = [
   {
-    image: COSMOS,
-    name: "Micorsoft Azure Cosmos DB",
-    technologyUsed: "ReactJs, Javascript, Redux, knockout.js, Jest",
-    description: "Azure Cosmos DB is Microsoft's proprietary globally distributed, multi-model database service 'for managing data at planet-scale' Azure Cosmos DB is a fully managed NoSQL database for modern app development. Single-digit millisecond response times, and automatic and instant scalability, guarantee speed at any scale.",
-    url: "https://cosmos.azure.com/",
+    image: ANGULAR_LISTING,
+    name: "Full Stack Angular Application",
+    technologyUsed: "Angular, OpenID,  Socket-Connection, Express, RabbitMq, NestJs, Postgres, Submodules",
+    description: "Created Listing Application that you can read, create, update, delete entities by request to api-gatway. Then Api-gateway will request to microservice then get back data to user.",
+    url: "https://github.com/darkmnpbox/ex3-mnp-gateway",
   },
   {
-    image: TRAVELWELL,
-    name: "travlwell.com",
-    technologyUsed: "Shopify, React, typescript, polaris, GraphQL",
-    description: "Custom Luggage Tags and Passport Holders engraved with everywhere you've traveled and everywhere you will travel in the future.",
-    url: "https://travlwell.com/",
+    image: TRENDING_MOVIES,
+    name: "Listing Trending Movies - React",
+    technologyUsed: "React, Redux-saga, REST API",
+    description: "Craeted a react app to show trending movies of the week by using REST API and Redux-saga to create a single point of truth.",
+    url: "https://jolly-lamport-fc6a39.netlify.app/",
   },
   {
-    image: COAST,
-    name: "Coast",
-    technologyUsed: "ReactNative, Javascript, Redux",
-    description: "Team collaboration mobile app and online services like slack Message people and groups without sharing phone numbers, communicate with managers and staff all in one place. and discuss or assign tasks to get stuff done",
-    url: "https://play.google.com/store/apps/details?id=com.fomo.android.app",
+    image: DEEP_REINFORCEMENT,
+    name: "Deep Reinforcement Project",
+    technologyUsed: "Python, Numpy, OpenCV, ",
+    description: `This is the project in Deep Reinforcement. We need to create the
+    environment and Agent. So we need to optimize the agent to get
+    maximum reward from the field. For this project i used combination of
+    opencv to render the environment and for agent i used many ideas from
+    value based and policy based reinforcement algorithms to create my own
+    model.`,
+    url: "https://1drv.ms/p/s!Ai9xzVM4rU0qhlyKzo2j-T3cZxjj",
   },
   {
-    image: AUTOMATION,
-    name: "3automation.com (RPA)",
-    technologyUsed: "ReactJs, Typescript, Redux",
-    description: "The next-gen Robotic Process Automation (#RPA) platform for retail and telecom domains. The ultimate automation platform for your Shopify, Email, E- commerce shop",
-    url: "https://www.3automation.com/",
+    image: LOAN_CALC,
+    name: "Loan Calculator",
+    technologyUsed: "ReactJs",
+    description: "Calcute the Loan EMI, Total Payable, Total Intrest from given data",
+    url: "https://github.com/darkmnpbox/react_loan_calculator",
   },
   {
-    image: GUAMEDIA,
-    name: "GuaMedia",
-    technologyUsed: "ReactNative, Javascript, Redux",
-    description: "Social media mobile app similar to Twitter for china. Social networking GUOMEDIA is an all-in-one social networking platform where users can build their own user profiles, create their own posts, Livestream broadcast and follow each other",
-    url: "https://play.google.com/store/apps/details?id=com.tiu.guo.media",
+    image: NEARBY,
+    name: "Near BY",
+    technologyUsed: "React",
+    description: "Created App to find what is near by me. Just used Rest Api to get Loaction details then served to user",
+    url: "https://mnp-nearby.herokuapp.com/",
   },
   {
-    image: TECHSPEC,
-    name: "TechSpec",
-    technologyUsed: "ReactJs, Typescript, Redux",
-    description: "TechSpec is e-commerce web app. User can compare his product and purchange. This had a dashboard web app which had the data of orders placed and type of user.",
-    url: "",
+    image: IRIS_FLOWER,
+    name: "Iris Flower Classification",
+    technologyUsed: "",
+    description: "Used KNN classification to create a model that will predict the type for given parameter.",
+    url: "https://darkmnpbox.herokuapp.com/ML/irisflower/",
   },
   {
-    image: HSP,
-    name: "HSP (Health Solution Plus)",
-    technologyUsed: "ReactJs, Javascript, Redux",
-    description: "This is a Healthcare sector project which would be developed as replica of a desktop application. My responsibilities in this project are to develop UI, perform searching of medical codes and categories, addition/updation of codes and categories.",
-    url: "",
+    image: VEG_FRUIT,
+    name: "Identify Vegitables and Fruits",
+    technologyUsed: "Tensorflow, Transfer-Learning, OpenCV",
+    description: "This is model created to identify the vegitable and fruits only from a fixed set. You upload a image then it will says what is the item it is.",
+    url: "https://github.com/darkmnpbox/veg-fruit-model-heroku",
   },
   {
-    image: DROPSHIP,
-    name: "DropShip Shopify App",
-    technologyUsed: "Shopify, React, typescript, polaris, GraphQL, Nodejs, Koajs",
-    description: "It is customized clothes shopify app which fetch order from store and give option to customize product and send detail to store owner. Also maintain tracking etc of product.",
-    url: "",
-  },
-  {
-    image: GOOD_FOOD_DISCOUNTS,
-    name: "GoodFoodDiscounts",
-    technologyUsed: "ReactNative, Javascript, Redux",
-    description: "Good food discouts app is similar like swiggy. Food and hotel can be searched and can be order. Even has facility to add coupan. You can add food in favourite list.",
-    url: "",
+    image: MAZE_SOLVER,
+    name: "Maze-Agent Solver",
+    technologyUsed: "GYM, OpenCV",
+    description: "It is a customizeble maze environment then run agent to find a solution. It only give one possible path , then it will output the result as video how it solved.",
+    url: "https://github.com/darkmnpbox/maze-agent-solver",
   },
 ];
 
 export const SKILLS = [
   { name: "ReactJs", initialRating: 4 },
-  { name: "React-Native", initialRating: 4 },
-  { name: "JavaScript", initialRating: 4 },
+  { name: "Angular", initialRating: 4 },
+  { name: "JavaScript", initialRating: 5 },
   { name: "Redux", initialRating: 4 },
-  { name: "Shopify/Reactjs", initialRating: 4 },
-  { name: "Nodejs", initialRating: 3 },
-  { name: "Koajs", initialRating: 3 },
-  { name: "Html", initialRating: 4 },
+  { name: "AWS : S3 | EC2 | Lambda...", initialRating: 4 },
+  { name: "Nodejs", initialRating: 5 },
+  { name: "HTML", initialRating: 5 },
   { name: "CSS", initialRating: 4 },
-  { name: "Unit-Testing(Jest)", initialRating: 3 },
   { name: "TypeScript", initialRating: 4 },
-  { name: "Graphql", initialRating: 4 },
-  { name: "Apollo", initialRating: 4 },
-  { name: "AntD | ReactStrap | Material UI", initialRating: 4 },
-  { name: "Shopify Polaris", initialRating: 4 },
+  { name: "SQL", initialRating: 4 },
+  { name: "NoSQL", initialRating: 4 },
+  { name: "Python", initialRating: 5 },
+  { name: "Numpy", initialRating: 4 },
+  { name: "Pandas", initialRating: 4 },
+  { name: "Keras", initialRating: 4 },
+  { name: "TensorFlow", initialRating: 4 },
   { name: "Git", initialRating: 4 },
 ];
 
-export const TOOLS = ["Visual Studio Code", "Git", "Chrome DevTools", "Npm (Node Package Manager)", "Atom", "Sublime Text", "Linux", "Heroku", "Postman"]
+export const TOOLS = ["Visual Studio Code", "Git", "Chrome DevTools",
+  "Npm (Node Package Manager)", "Github", "Docker", "Linux", "Heroku", "Postman", "Anaconda", "Jupyter", "pip(Python Package Manager)"]

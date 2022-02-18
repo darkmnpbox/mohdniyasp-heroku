@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/sunil.jpg";
+import myImg from "../../Assets/niyas.jpg";
 import SocialMedia from "../SocialMedia";
 import TypeWriter from "./TypeWriter";
 
@@ -20,14 +20,13 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> Sunil Yadav</strong>
+                <strong className="main-name"> Mohammed Niyas P</strong>
               </h1>
 
               <p className="heading-description blockquote">
-                I am passionate about using Javascript and Animation Libraries
-                to create awesome user experiences. With over five years of
-                experience developing web applications using the latest
-                front-end and back-end technologies.
+                Logical and result-driven Full-Stack developer dedicated to building and optimizing user-focused websites and applications.
+                Judicious and creative when crafting effective websites, apps and platforms to propel competitive advantage and revenue growth.
+                Technical proficient and analytical problem solver with calm and focused demeanor.
               </p>
 
               <div className="heading-type">

@@ -9,7 +9,10 @@ function TypeWriter() {
           "Front End Developer",
           "Back End Developer",
           "Software Engineer",
-          "Open Source Contributor",
+          "Machine Learning",
+          "Deep Learning",
+          "Computer Vision",
+          "Mechanical Engineer"
         ],
         autoStart: true,
         loop: true,

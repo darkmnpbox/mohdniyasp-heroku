@@ -7,15 +7,15 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Sunil Yadav </span>
-            from <span className="purple"> Lucknow, India.</span>
+            Hi Everyone, I am <span className="purple">Mohammed Niyas P </span>
+            from <span className="purple"> Kerala, India.</span>
             <br />
             Software Engineer who loves to transform ideas into reality using
             code.
             <br />
-            Motivated designer and developer with experience creating
-            custom websites with ReactJs, JavaScript, HTML5, CSS3. Shopify app using ReactJs, Javascript, Polaris, Graphql, nodejs, Koajs
-            and Mobile App using React-native.
+            Motivated developer with experience creating
+            custom websites with Express, ReactJs, Angular, NestJs, HTML.
+            Active in the Field of Machine Learnig and Deep Learning Areas.
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
@@ -24,13 +24,13 @@ function AboutCard() {
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Swimming
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Driving
             </li>
             <li className="about-activity">
-              <ImPointRight /> Watching Movies
+              <ImPointRight /> Football
             </li>
           </ul>
         </blockquote>
